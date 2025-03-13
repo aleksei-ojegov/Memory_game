@@ -183,6 +183,7 @@ namespace Memory_3
 
         private void ResetImages() //функция сброса графичиских полей после раунда
         {
+            time = 60;
             startGameTimer();
             icons.Clear();
             icons.AddRange(icons_reserv);
