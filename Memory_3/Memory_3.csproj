@@ -99,9 +99,6 @@
     <None Include="Resources\10.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\question.jpg" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\1.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -141,13 +138,37 @@
     <None Include="Resources\8.jpg" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Resources\im1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\im8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
     <None Include="Resources\im9.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im17.jpg" />
+    <None Include="Resources\im10.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im18.jpg" />
+    <None Include="Resources\im11.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\im12.jpg" />
@@ -156,7 +177,7 @@
     <None Include="Resources\im13.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im14.JPG" />
+    <None Include="Resources\im14.jpg" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\im15.jpg" />
@@ -165,13 +186,13 @@
     <None Include="Resources\im16.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im6.jpg" />
+    <None Include="Resources\im17.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im11.jpg" />
+    <None Include="Resources\im18.jpg" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\im10.jpg" />
+    <None Include="Resources\question.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

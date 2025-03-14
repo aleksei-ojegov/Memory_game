@@ -170,6 +170,7 @@ namespace Memory_3
                 i++;
             }
             MessageBox.Show("Ты нашёл все картинки!", "Победа");
+            timer.Stop();
             //for (int j = 0; j < 36; j++)
             //{
             //    proverka[j] = null;
@@ -184,7 +185,7 @@ namespace Memory_3
         private void ResetImages() //функция сброса графичиских полей после раунда
         {
             time = 60;
-            startGameTimer();
+            //startGameTimer();
             icons.Clear();
             icons.AddRange(icons_reserv);
             Array.Clear(baza,0,36);
@@ -241,7 +242,7 @@ namespace Memory_3
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
             ResetImages();
-            startGameTimer();
+            //startGameTimer();
         }
 
         private void timer2_Tick(object sender, EventArgs e)

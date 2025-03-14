@@ -3,12 +3,19 @@
   "WorkspaceRootPath": "E:\\Visual Studio\\Memory_3\\Memory_game\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|Memory_3||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|e:\\visual studio\\memory_3\\memory_game\\memory_3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|solutionrelative:memory_3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|e:\\visual studio\\memory_3\\memory_game\\memory_3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|E:\\Visual Studio\\Memory_3\\Memory_game\\memory_3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|solutionrelative:memory_3\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|e:\\visual studio\\memory_3\\memory_game\\memory_3\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}",
+      "RelativeMoniker": "D:0:0:{86DB77D8-067C-4028-8C0F-DB217EA07CC5}|Memory_3\\Memory_3.csproj|solutionrelative:memory_3\\properties\\resources.resx||{FF4D6ACA-9352-4A5F-821E-F4D6EBDCAB11}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,24 +34,36 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Memory_3",
+              "DocumentMoniker": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Memory_3.csproj",
+              "RelativeDocumentMoniker": "Memory_3\\Memory_3.csproj",
+              "ToolTip": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Memory_3.csproj",
+              "RelativeToolTip": "Memory_3\\Memory_3.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-13T12:55:02.334Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Form1.cs",
               "RelativeDocumentMoniker": "Memory_3\\Form1.cs",
-              "ToolTip": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Form1.cs*",
-              "RelativeToolTip": "Memory_3\\Form1.cs*",
-              "ViewState": "AgIAAKcAAAAAAAAAAAAWwLUAAAAJAAAAAAAAAA==",
+              "ToolTip": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Form1.cs",
+              "RelativeToolTip": "Memory_3\\Form1.cs",
+              "ViewState": "AgIAAPcAAAAAAAAAAAASwLUAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T12:42:51.66Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "DocumentMoniker": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Form1.cs",
               "RelativeDocumentMoniker": "Memory_3\\Form1.cs",
-              "ToolTip": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
-              "RelativeToolTip": "Memory_3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]*",
+              "ToolTip": "E:\\Visual Studio\\Memory_3\\Memory_game\\Memory_3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "Memory_3\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-13T12:42:35.343Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
