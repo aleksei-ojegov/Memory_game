@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox36 = new System.Windows.Forms.PictureBox();
             this.pictureBox35 = new System.Windows.Forms.PictureBox();
@@ -565,9 +566,10 @@
             // toolStripTextBox1
             // 
             this.toolStripTextBox1.Enabled = false;
+            this.toolStripTextBox1.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.toolStripTextBox1.Name = "toolStripTextBox1";
             this.toolStripTextBox1.Size = new System.Drawing.Size(100, 23);
-            this.toolStripTextBox1.Text = "00: 60";
+            this.toolStripTextBox1.Text = "02: 00";
             // 
             // timer2
             // 
@@ -582,6 +584,7 @@
             this.ClientSize = new System.Drawing.Size(884, 561);
             this.Controls.Add(this.tableLayoutPanel1);
             this.Controls.Add(this.menuStrip1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "Form1";
             this.Text = "Игра на память";

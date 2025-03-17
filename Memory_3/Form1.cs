@@ -26,7 +26,7 @@ namespace Memory_3
         string secondClick = null;
 
         int ff = 0;
-        int time = 60;
+        int time = 120;
 
         List<string> icons = new List<string>()
         {
@@ -55,6 +55,7 @@ namespace Memory_3
         private void AssignIconsToSquares()
         {
             startGameTimer();
+            timer.Start();
             int n = 0;
             foreach (Control control in tableLayoutPanel1.Controls)
             {
@@ -96,7 +97,7 @@ namespace Memory_3
                 {
                     if (pictureBox.Name.ToString() == baza[i])
                     {
-                        MessageBox.Show("Ты уже нажал");
+                        //MessageBox.Show("Ты уже нажал");
                         return;
                     }
                 }
@@ -109,6 +110,9 @@ namespace Memory_3
                     firstClicked.Image = (Image)Properties.Resources.ResourceManager.GetObject(data[ss, 1]);
                     return;
                 }
+
+                if (pictureBox == firstClicked)
+                    return;
 
                 secondClicked = pictureBox;
                 secondClick = data[ss, 1];
@@ -169,8 +173,9 @@ namespace Memory_3
                 }
                 i++;
             }
-            MessageBox.Show("Ты нашёл все картинки!", "Победа");
             timer.Stop();
+            MessageBox.Show("Ты нашёл все картинки!", "Победа");
+            
             //for (int j = 0; j < 36; j++)
             //{
             //    proverka[j] = null;
@@ -180,11 +185,12 @@ namespace Memory_3
             Array.Clear(proverka, 0, 36);
             //Close();
             ResetImages();
+            Reset_time();
         }
 
         private void ResetImages() //функция сброса графичиских полей после раунда
         {
-            time = 60;
+            //time = 60;
             //startGameTimer();
             icons.Clear();
             icons.AddRange(icons_reserv);
@@ -241,8 +247,9 @@ namespace Memory_3
 
         private void toolStripMenuItem2_Click(object sender, EventArgs e)
         {
+            time = 120;
             ResetImages();
-            //startGameTimer();
+            toolStripTextBox1.Text = "02: 00";
         }
 
         private void timer2_Tick(object sender, EventArgs e)
@@ -252,9 +259,16 @@ namespace Memory_3
             //toolStripTextBox1.Text = "00:08";
         }
 
+        private void Reset_time() 
+        {
+            time = 120;
+            //startGameTimer();
+            timer.Start();
+        }
+
         private void startGameTimer()
         {
-            timer.Start();
+            //timer.Start();
             timer.Tick += delegate
             {
                 time--;
@@ -263,10 +277,39 @@ namespace Memory_3
                     timer.Stop();
                     MessageBox.Show("Время вышло");
                     ResetImages();
+                    Reset_time();
                 }
 
-                var ssTime = TimeSpan.FromSeconds(time);
-                toolStripTextBox1.Text = "00: " + time.ToString();
+
+                if (time == 120)
+                {
+                    toolStripTextBox1.Text = "02: 00";
+                }
+                else
+                {
+                    if (time < 60)
+                    {
+                        if (time < 10)
+                        {
+                            toolStripTextBox1.Text = "00: 0" + time.ToString();
+                        }
+                        else
+                        {
+                            toolStripTextBox1.Text = "00: " + time.ToString();
+                        }
+                    }
+                    else
+                    {
+                        if (time < 70)
+                        {
+                            toolStripTextBox1.Text = "01: 0" + (time - 60).ToString();
+                        }
+                        else
+                        {
+                            toolStripTextBox1.Text = "01: " + (time - 60).ToString();
+                        }
+                    }
+                }
             };
         }
     }
